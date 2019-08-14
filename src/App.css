@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.textBox {
+  background-color: #faedca;
+  max-width: 60vw;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 5px;
+  margin-top: 10px;
+  border: solid 3px #fe5d26;
+}
