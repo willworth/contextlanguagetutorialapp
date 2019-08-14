@@ -7,13 +7,8 @@ function App() {
   return (
     <LanguageProvider>
     <div className="App">
-      <div className="textBox">
-      <h1>This is the context language tutorial app</h1>
       <LangSwitch/>
     <Intro/>
-
-      
-      </div>
     </div>
     </LanguageProvider>
   );
