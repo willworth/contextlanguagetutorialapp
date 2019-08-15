@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { LanguageContext } from "./contexts/LanguageContext";
 
-const words = {
+const options = {
     english: {
         title: "This is the context language tutorial app",
       intro: "This is the intro Component",
@@ -20,7 +20,7 @@ class Intro extends Component {
     static contextType = LanguageContext;
     render() {
         const { language } = this.context;
-        const { title,intro, details} = words[language];
+        const { title,intro, details} = options[language];
         return (
             <div>
                 <div className="textBox">
